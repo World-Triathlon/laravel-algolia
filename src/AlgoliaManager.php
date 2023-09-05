@@ -19,7 +19,7 @@ use Illuminate\Contracts\Config\Repository;
 
 class AlgoliaManager extends AbstractManager
 {
-    protected AlgoliaFactory $factory;
+    protected $factory;
 
     public function __construct(Repository $config, AlgoliaFactory $factory)
     {
